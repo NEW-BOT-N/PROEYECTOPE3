@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#171717">
+<TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" android:textColor="#616161" android:textSize="40px" android:text="DESCONECTADO"/>
+<Button android:id="@+id/connectButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="120px" android:width="400px" android:textSize="35px" android:backgroundTint="#616161" android:text="Conectar"/>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center">
+<TextView android:id="@+id/dataText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center" android:textSize="285px" android:height="350px" android:width="350px" android:layout_margin="100px" android:textColor="#d40705" android:text="00"/>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center" android:gravity="center">
+<Button android:id="@+id/sendI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="120px" android:width="350px" android:textSize="50px" android:backgroundTint="#616161" android:text="INICIAR"/>
+<Button android:id="@+id/sendD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="120px" android:width="350px" android:textSize="50px" android:backgroundTint="#616161" android:text="DETENER"/>
+<TextView android:id="@+id/TextSecu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:height="120px" android:textSize="50px" android:text="SECUENCIA" android:textColor="#c4c4c4"/>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center">
+<Button android:id="@+id/sendA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="150px" android:width="90px" android:textSize="80px" android:layout_margin="20px" android:backgroundTint="#616161" android:text="A"/>
+<Button android:id="@+id/sendB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="150px" android:width="90px" android:textSize="80px" android:layout_margin="20px" android:backgroundTint="#616161" android:text="B"/>
+<Button android:id="@+id/sendC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="150px" android:width="90px" android:textSize="80px" android:layout_margin="20px" android:backgroundTint="#616161" android:text="C"/>
+</LinearLayout>
+</LinearLayout>
